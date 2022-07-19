@@ -96,10 +96,9 @@ nav .fa{
         background: #f44336;
         width: 200px;
         position:absolute;
-        right:-200px;
+        right: -200px;
         top:0;
         text-align: left;
-        width: 200px;
         height: 100vh;
         z-index: 2;
         transition: 0.8s linear;
@@ -159,3 +158,26 @@ nav .fa{
     }
 }
 /*---finish course*/
+/*----campus----*/
+.campus{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding:40px 12px;
+}
+.campus p{
+    color:#777;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px;
+}
+.campCol{
+    flex-basis: 32%;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+.campCol img{
+    width: 100%;
+}
