@@ -177,7 +177,83 @@ nav .fa{
     overflow: hidden;
     border-radius: 10px;
     position: relative;
+    margin-top: 25px;
 }
 .campCol img{
     width: 100%;
+    display: block;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    top:0;
+    position: absolute;
+    left:0;
+    background: transparent;
+    transition: 0.5s ease;
+}
+.layer:hover{
+    background:rgba(4,9,30,0.7);
+}
+.layer h3{
+    width: 100%;
+    bottom: 0;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    transition: .5s linear;
+    color:#fff;
+    font-size: 24px;
+    opacity: 0;
+}
+.layer:hover h3 {
+    bottom:50%;
+    left:50%;
+    opacity: 1;
+}
+/*---finish campus---*/
+/* ---facilities---*/
+.facilities{
+    text-align: center;
+    margin: auto;
+    padding-top:20px;
+    width: 80%;
+}
+.facilities p{
+    color:#777;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px;
+}
+.facilitiesCol{
+    flex-basis: 31%;
+    overflow: hidden;
+    border-radius: 15px;   
+    margin-top: 20px;
+}
+.facilitiesCol img{
+    width: 100%;
+    border-radius: 10px;
+}
+.facilitiesCol h3{
+    text-align: left;
+    margin: 15px 10px ;
+    font-size: 23px;
+}
+.facilitiesCol p{
+    text-align: left;
+    color: #777;
+    
+}
+/*---finish facilities---*/
+/*---testimonials---*/
+.testimonials{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top:20px;
+}
+.testimonials p{
+    color: #777;
 }
