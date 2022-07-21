@@ -301,3 +301,24 @@ nav .fa{
     color:#fff;
     font-weight: 600;
 }
+/*---finish call to action ---*/
+/*---footer---*/
+.footer{
+    width:100%;
+    text-align: center;
+    margin: 100px 0;
+}
+.footer h4{
+    margin: 20px;
+}
+.footer p{
+    color: #777;
+    margin: 40px 0;
+}
+.icon .fa{
+    color:#f44336;
+    margin: 0 20px;
+}
+.footer .fa{
+    color:#f44336;
+}
