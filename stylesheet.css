@@ -5,12 +5,13 @@
 }
 .header{
     width: 100%;
-    min-height: 100vh;
+    min-height: 60vh;
     background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    border-radius: 2px;
 }
 nav{
     display: flex;
@@ -62,26 +63,6 @@ nav img{
     color:#fff;
     font-weight: 600;
 }
-.nav-text p{
-    font-size: large;
-    color:#fff;
-    padding-top: 15px;
-    margin-bottom: 45px;
-}
-.hero-btn{
-    display: inline-block;
-    border: 1px solid #777;
-    padding:7px 30px;
-    text-decoration: none;
-    color:#fff;
-    background: transparent;
-    transition: .5s ease;
-    border-radius:5px;
-}
-.hero-btn:hover{
-    background: #ff334f;
-    border: 1px solid #ff334f;
-}
  nav .fa{
     display: none;
 }
@@ -93,9 +74,6 @@ nav img{
     .nav-text h2{
         color:#fff;
         font-size: 16px;
-    }
-    .nav-text p{
-        font-size: small;
     }
     nav .fa{
         display:block;
@@ -117,4 +95,30 @@ nav img{
         display: block;
         margin: 15px 10px;
     }
+}
+/*---finish header about_us ---*/
+.footer{
+    width: 80%;
+    text-align: center;
+    margin: auto;    
+    padding: 25px 12px;
+}
+.footer h2{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.footer p {
+    color:#777;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.icons{
+    margin: 40px 0;
+}
+.icons .fa {
+    margin:0 15px ;
+    color:#ff334f;
+}
+.footer .fa{
+    color: #ff334f;
 }
