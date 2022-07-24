@@ -84,10 +84,11 @@ nav img{
     .nav_link{
         width: 100px;
         background:#ed7171ea;
-        height: 100vh;
+        height: 60vh;
         position:absolute;
         top:0;
         right: 0;
+        visibility:hidden;
         z-index: 2;
         transition: .5s ease;
     }
@@ -97,6 +98,61 @@ nav img{
     }
 }
 /*---finish header about_us ---*/
+/*---start about_us ---*/
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+.about_col{
+    flex-basis: 48%;
+    text-align: left;
+    padding:30px 2px;
+}
+.about_col img{
+    width: 100%;
+    display: block ;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #777 ;
+}
+.about_col h3 {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.about_col p {
+    color:#777;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.hero-btn{
+    border: 1px solid #777 ;
+    border-radius: 3px;
+    padding: 5px 20px;
+    text-decoration: none;
+    color:black;
+    background: transparent;
+    transition: .5s ease;
+}
+.hero-btn:hover{
+    background: #ff334f;
+    color:#fff;
+    border:1px solid #fff;
+
+}
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}
+/*---finish about-us*/
+/*---start footer*/
 .footer{
     width: 80%;
     text-align: center;
@@ -122,3 +178,4 @@ nav img{
 .footer .fa{
     color: #ff334f;
 }
+/*---finish footer*/
