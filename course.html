@@ -13,19 +13,37 @@
 </head>
 <body>
     <section class="header">
-        <div class="nav-box">
-            <a href="#" ><img src="images/logo.png" alt="reload"></a>
-            <nav>
+        <nav>
+            <a href="#"><img src="images/logo.png" alt="reload"></a>
+            <div class="nav-link">
+                <i class="fa fa-times-circle"></i>
                 <ul>
                     <li><a href="webtwo.html" target="_self">HOME</a></li>
                     <li><a href="about_us.html" target="_blank">ABOUT</a></li>
-                    <li><a href="course.html" target="_blank">COURSE</a></li>
+                    <li><a href="#">COURSE</a></li>
                     <li><a href="#">BLOG</a></li>
                     <li><a href="#">CONTACT</a></li>
                 </ul>
-            </nav>
+            </div>
+            <i class="fa fa-bars" ></i>
+        </nav>
+        <div class="text_box">
+            <h2>Our Course</h2>
         </div>
     </section>
-    
+<!--------------  finish header ---------> 
+    <section class="course">
+        <h2>Course We Offer</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+<script>
+    sideNave = document.querySelector('.nav-link');
+    document.querySelector('.fa-bars').addEventListener('click',()=>{
+        sideNave.style.visibility = "visible";
+    });
+    document.querySelector('.fa-times-circle').addEventListener('click',()=>{
+        sideNave.style.visibility = "hidden";
+    });
+</script>   
 </body>
 </html>
