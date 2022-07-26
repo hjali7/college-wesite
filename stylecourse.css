@@ -63,7 +63,7 @@ nav .fa{
 }
 .text_box h2{
     color: #fff;
-    font-size: 24px;
+    font-size: 44px;
 }
 @media(max-width:700px){
     body{
@@ -95,10 +95,105 @@ nav .fa{
         font-size: 22px;
     }
 }
+/*---finish header---*/
+/*---course---*/
 .course{
     width: 80%;
+    margin-top:20px;
     padding-top: 100px;
     position: relative;
     text-align: center;
     margin: auto;
+}
+.course h2{
+    margin-bottom: 30px;
+    font-size: 37px;
+}
+.course p{
+    color:#777;
+}
+.row{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.course-col{
+    flex-basis: 30%;
+    margin: auto 10px;
+    background: #ffa7a1eb;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 15px #777;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.course-col h3{
+    margin-top: 12px;
+    font-size:22px;
+}
+.course-col p {
+    text-align:center;
+    padding:10px;
+}
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+
+    }
+    .course-col{
+        margin-top: 25px;
+    }
+}
+/*---finish course ---*/
+/*---facilities---*/
+.facilities{
+    width: 80%;
+    text-align: center;
+    padding-top:100px;
+    margin: 10px  auto ;
+    padding-top:30px;
+}
+.facilities h2{
+    margin-top: 20px;
+    
+}
+.facilitiesCol{
+    cursor:pointer;
+    flex-basis: 31%;
+    margin: auto 15px;
+    border-radius: 5px;
+    text-align: left;
+}
+.facilitiesCol p{
+    color:#777;
+    margin: 15px 0;
+}
+.facilitiesCol img{
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+/*---finish facilities ---*/
+/*---  footer   ---*/
+.footer{
+    width:80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 80px;
+}
+.footer h4{
+    font-size:14px;
+}
+.footer p{
+    font-size:small;
+    margin-bottom: 20px;
+}
+.icon{
+    color:#f44336;
+
+}
+.icon .fa{
+    margin:25px 15px;
+    cursor: pointer;
 }
