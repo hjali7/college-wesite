@@ -1,7 +1,7 @@
-let bottom = document.querySelector('.nav-link');
-function closeMenu (){
-    bottom.style.right = '-200px'
-};
-function showMenu(){
-    bottom.style.right = "0"
-};
+sideNave = document.querySelector('.nav-link');
+document.querySelector('.fa-bars').addEventListener('click',()=>{
+    sideNave.style.visibility = "visible";
+});
+document.querySelector('.fa-times-circle').addEventListener('click',()=>{
+    sideNave.style.visibility = "hidden";
+});

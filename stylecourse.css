@@ -80,6 +80,7 @@ nav .fa{
         text-align: left;
         height: 90vh;
         border-radius: 2px;
+        z-index: 2;
     }
     .nav-link ul li{
         display: block;

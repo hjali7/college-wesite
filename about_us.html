@@ -15,8 +15,8 @@
     <section class="header">
         <nav>
             <a href=""><img src="images/logo.png" alt="reload"></a>
-            <div class="nav_link">
-                <i class="fa fa-times hero-close"></i>
+            <div class="nav-link">
+                <i class="fa fa-times-circle"></i>
                 <ul>
                     <li><a href="webtwo.html" target="_self">HOME</a></li>
                     <li><a href="#">ABOUT US</a></li>
@@ -25,7 +25,7 @@
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars hero-menu"></i>
+            <i class="fa fa-bars"></i>
         </nav>
         <div class="nav-text">
             <h2>ABOUT US</h2>
@@ -59,16 +59,7 @@
         </div>
         <p>Made with <i class="fa fa-heartbeat"></i> By Hj-King</p>
     </section>
-    <script>
-        let sideNav = document.querySelector('.nav_link') ;
-        document.querySelector('.hero-close').addEventListener('click',()=>{
-            sideNav.style.display = "none";
-        });
-        document.querySelector('.hero-menu').addEventListener('click',()=>{
-            sideNav.style.display = 'block';
-            sideNav.style.right = '0'
-            sideNav.style.visibility = 'visible'
-        })
+    <script src="script.js">
     </script>
 </body>
 </html>
