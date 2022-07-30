@@ -15,7 +15,11 @@
 nav{
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     padding: 2% 5%;
+=======
+    padding: 3% 5%;
+>>>>>>> 2ca0d7d4b15770a6ec8eb3271709879ea00a4df1
     align-items: center;
 }
 nav img{
@@ -27,9 +31,15 @@ nav img{
 }
 .nav-link ul li{
     display:inline-block;
+<<<<<<< HEAD
     list-style: none;
     position: relative;
     padding:8px 12px;
+=======
+    margin-right: 25px;
+    list-style: none;
+    position: relative;
+>>>>>>> 2ca0d7d4b15770a6ec8eb3271709879ea00a4df1
 }
 .nav-link ul li a{
     text-decoration: none;
@@ -65,6 +75,7 @@ nav .fa{
     display:none;
 }
 @media(max-width:700px){
+<<<<<<< HEAD
     .nav-link{
         z-index: 2;
         width: 150px;
@@ -132,4 +143,7 @@ nav .fa{
 }
 .footer .fa{
     color:#f44336;
+=======
+
+>>>>>>> 2ca0d7d4b15770a6ec8eb3271709879ea00a4df1
 }
