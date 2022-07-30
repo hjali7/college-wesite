@@ -189,10 +189,16 @@ nav .fa{
     color: #777;
     margin: 40px 0;
 }
+<<<<<<< HEAD
 .icons .fa{
     color:#f44336;
     margin: 0 20px;
     cursor: pointer;
+=======
+.icon .fa{
+    color:#f44336;
+    margin: 0 20px;
+>>>>>>> d1839680c4ba2aa9dce67395d1ba7f2e634926b3
 }
 .footer .fa{
     color:#f44336;
