@@ -319,6 +319,7 @@ nav .fa{
 .icon .fa{
     color:#f44336;
     margin: 0 20px;
+    cursor: pointer;
 }
 .footer .fa{
     color:#f44336;
