@@ -177,3 +177,23 @@ nav .fa{
         flex-direction: column;
     }
 }
+.footer{
+    width:100%;
+    text-align: center;
+    margin: 100px 0;
+}
+.footer h4{
+    margin: 20px;
+}
+.footer p{
+    color: #777;
+    margin: 40px 0;
+}
+.icons .fa{
+    color:#f44336;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.footer .fa{
+    color:#f44336;
+}
