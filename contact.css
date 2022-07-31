@@ -155,12 +155,22 @@ nav .fa{
     justify-content: space-between;
     margin: 5%;
 }
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}
 .contact-col{
-    flex-basis: 45%;
+    flex-basis: 48%;
+    margin: 30px auto;
 }
 .contact-col div{
     margin:20px auto;
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
 }
+
 .contact-col div p{
     color:#777;
     font-size: small;
@@ -169,10 +179,34 @@ nav .fa{
     color:#f44336;
     cursor: pointer;
     font-size: 22px;
-    margin:5%
+    display: inline-block;
+    margin-right: 15px;
 }
-.contact-col{
-    
+.contact-col form{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.contact-col input , .contact-col textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    padding:20px ;
+    margin-bottom: 15px;
+}
+.btn{
+    width:140px;
+    height: 40px;
+    border:1px solid #998;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #fff;
+    transition: .5s linear;
+}
+.btn:hover{
+    background: #f44336;
+    box-shadow: 5px 5px 15px #999;
+    border: none;
 }
 /*---footer---*/
 .footer{
@@ -198,3 +232,4 @@ nav .fa{
 .footer .fa{
     color:#f44336;
 }
+/*---finish all pages---*/
